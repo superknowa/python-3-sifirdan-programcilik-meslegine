@@ -1,6 +1,16 @@
-seker = input("Şeker kullanıyor musunuz?: ")
+print("""
 
-secim = int(input("İçecek numaranızı girin: "))
+    Seçiminiz nedir?
+    [1] Filtre Kahve
+    [2] Espresso
+    [3] Sıcak Çikolata
+    [4] Mocha
+
+
+    """)
+
+seker = input("Şeker kullanıyor musunuz?: ")
+secim = int(input("Seçiminizi girin: "))
 
 if seker:
     if secim == 1:
